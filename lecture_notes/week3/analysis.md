@@ -266,6 +266,8 @@ to apply it.
 non-negative integers to real numbers. We assume they return the number of key
 operations an algorithm does for an input of size $n$.
 
+**MEMORIZE THIS**
+
 $f(n)$ is **big-O** of $g(n)$ if there is a real constant $c > 0$ and an integer
 constant $n_0 \geq 1$ such that
 
@@ -285,6 +287,8 @@ equivalent ways:
 - $f(n)$ is *in* $O(g(n))$
 - $f(n) = O(g(n))$; this form is discouraged since it is not technically correct
   to say that a function is *equal* to an $O$-notation expression
+  
+**MEMORIZE THIS**
 
 Here are some examples of $O$-notation expressions:
 
