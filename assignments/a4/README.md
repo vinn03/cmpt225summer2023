@@ -22,7 +22,7 @@ in any way: all the sorting-related code you write goes in
 "a4_base.h"`. No other #includes are allowed.
 
 *iquick* sort is regular quick sort, except when the sub-vectors being sorted
-are shorter than some predetermined threshold length, insertion sort is instead
+are shorter than some predetermined threshold length, insertion sort is used instead
 of quick sort. If you choose a good threshold length, you can get better
 average-time performance than regular quick sort. Do some experimentation to
 find the best threshold length for *iquick* sort!
@@ -166,7 +166,7 @@ Google Sheets as a CSV file.
 ## Visualizing the Data in a Spreadsheet
 
 Using Excel or Google Sheets, create a table of all the data you generated. Here
-us an example of what the first four rows of the table ought to look like (the
+is an example of what the first four rows of the table ought to look like (the
 numbers in your table might be different):
 
 | **Name**    | **N** | **Comparisons** | **CPU Seconds** |
@@ -279,7 +279,7 @@ code for speed.
 - **A score of 0** if valgrind reports any memory leaks, or other errors.
 - **A score of 0** if you *don't* include the "Statement of Originality", or it
   is modified in any way.
-- **A score of 0** if use code from some other source (e.g. the web, the
+- **A score of 0** if you use code from some other source (e.g. the web, the
   textbook, ChatGPT, ...) *without* citing its source.
 - **A score of 0** if you submit a "wrong" non-working file, and then *after the
   due date* submit the "right" file. If you can provide evidence that you
