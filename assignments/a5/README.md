@@ -293,8 +293,8 @@ Be sure to test your program, and run it with `valgrind`, before submitting it.
 - **a score of 0** if you do any of the following:
   - change `Node` in ways that are not allowed, if you modify anything in
     `Wordlist_base`, or if you use a vector, array, or any other data structure
-    other than an AVL tree.
-  - don't include the "statement of originality, or its modified in any way.
+    other than an AVL tree;
+  - don't include the "statement of originality, or its modified in any way;
   - submit a "wrong" non-working file, and then *after the due date* submit the
     "right" file. If you can provide evidence that you finished the assignment
     on time, then it may be marked.
@@ -302,9 +302,10 @@ Be sure to test your program, and run it with `valgrind`, before submitting it.
 ## Differences from Assignment 1
 
 You can think of the AVL tree as storing the words in alphabetical order. So,
-the tie-breaking rule for the `most_frequent()` is if two, or more, words tie
-for the most frequent, then return the word that comes first alphabetically. 
+the tie-breaking rule for the `most_frequent()` is to return the word that comes
+first alphabetically. 
 
-Also, the `is_sorted()` method should should return `true` if the AVL tree is a
-BST (binary search tree), and `false` otherwise. If ever your AVL tree is not a
-BST, then you have a serious problem!
+Also, the `is_sorted()` method should return `true` if the AVL tree is a BST
+(binary search tree), and `false` otherwise. In a working version of this
+assignment it should always return `true`: if ever your AVL tree is not a BST,
+then you have a serious problem!
